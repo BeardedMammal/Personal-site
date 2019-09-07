@@ -1,0 +1,132 @@
+  .hero {
+    height: 100vh;
+    margin: 0;
+    overflow: hidden;
+    background: linear-gradient(to bottom, #202020, #111119);
+  }
+  
+  .rain {
+    position: absolute;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 2;
+  }
+  
+  .rain.back-row {
+    display: none;
+    z-index: 1;
+    bottom: 60px;
+    opacity: 0.5;
+  }
+
+  .drop {
+    position: absolute;
+    bottom: 100%;
+    width: 15px;
+    height: 150px;
+    pointer-events: none;
+    animation: drop 0.5s linear infinite;
+  }
+
+  .fa-github, .fa-linkedin-in, .fa-file-download {
+    color: #FFF;
+  }
+
+
+
+  .icon-link {
+    z-index: 999;
+  }
+  
+  @keyframes drop {
+    0% {
+      transform: translateY(0vh);
+    }
+    75% {
+      transform: translateY(100vh);
+    }
+    100% {
+      transform: translateY(100vh);
+    }
+  }
+  
+  .stem {
+    width: 1px;
+    height: 60%;
+    margin-left: 7px;
+    background: linear-gradient(to bottom, rgba(255, 255, 255, 0), rgba(255, 255, 255, 0.25));
+    animation: stem 0.5s linear infinite;
+  }
+  
+  @keyframes stem {
+    0% {
+      opacity: 1;
+    }
+    65% {
+      opacity: 1;
+    }
+    75% {
+      opacity: 0;
+    }
+    100% {
+      opacity: 0;
+    }
+  }
+  
+  .splat {
+    width: 15px;
+    height: 10px;
+    border-top: 2px dotted rgba(255, 255, 255, 0.5);
+    border-radius: 50%;
+    opacity: 1;
+    transform: scale(0);
+    animation: splat 0.5s linear infinite;
+  }
+  
+  @keyframes splat {
+    0% {
+      opacity: 1;
+      transform: scale(0);
+    }
+    80% {
+      opacity: 1;
+      transform: scale(0);
+    }
+    90% {
+      opacity: 0.5;
+      transform: scale(2);
+    }
+    100% {
+      opacity: 0;
+      transform: scale(1.5);
+    }
+  }
+
+  .title {
+      color: #FFF;
+      background: linear-gradient(270deg, #c7ebf9, #0d69b4);
+      background-size: 100% 100%;
+      
+      -webkit-animation: title 3s ease infinite;
+      -moz-animation: title 3s ease infinite;
+      animation: title 3s ease infinite;
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+  }
+
+  @-webkit-keyframes title {
+    0%{background-position:68% 0%}
+    50%{background-position:33% 100%}
+    100%{background-position:68% 0%}
+}
+@-moz-keyframes title {
+  0%{background-position:68% 0%}
+  50%{background-position:33% 100%}
+  100%{background-position:68% 0%}
+}
+@keyframes title {
+  0%{background-position:68% 0%}
+  50%{background-position:33% 100%}
+  100%{background-position:68% 0%}
+}
