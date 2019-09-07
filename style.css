@@ -130,3 +130,9 @@
   50%{background-position:33% 100%}
   100%{background-position:68% 0%}
 }
+
+@media (max-width: 576px) {
+  h1 {
+    font-size: 1.5rem;
+  }
+}
