@@ -230,6 +230,7 @@ footer .social-links a:focus {
 }
 
 @media (max-width: 768px) {
+  #hero-section {
     background: #CCE5E7 url(Images/Mountains.png) no-repeat center bottom; 
   }
 }
