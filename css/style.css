@@ -1,9 +1,3 @@
-body {
-    max-width: 1920px;
-    margin-right: auto !important;
-    margin-left: auto !important;
-}
-
 .brand-color {
     color: #0FB5BF;
 }
@@ -44,6 +38,7 @@ body {
     -moz-background-size: contain;
     -o-background-size: contain;
     background-size: contain;
+    overflow: hidden;
 }
 
 #work-hero-section {
@@ -52,7 +47,7 @@ body {
     background: #CCE5E7 url(../Images/Clouds.svg) no-repeat center center; 
 }
 
-.button {
+.home-button, .button {
     display: block;
     padding: 8px 24px;
     width: 200px;
@@ -63,16 +58,19 @@ body {
     transition: 0.3s;
 }
 
-.button:hover, .button:focus {
+.home-button:hover, .home-button:focus {
     text-decoration: none;
     color: #ffffff;
     background-color: #0E99A2;
 }
 
-.portfolio-one {
-    background-color: #D3399B;
+.portfolio-item {
     color: #FFFFFF;
     height: 90vh;
+}
+
+.portfolio-one {
+    background-color: #D3399B;
 }
 
 .portfolio-one .button {
@@ -81,21 +79,8 @@ body {
     font-weight: 700;
 }
 
-.portfolio-one .button:hover,
-.portfolio-one .button:focus,
-.portfolio-two .button:hover,
-.portfolio-two .button:focus,
-.portfolio-three .button:hover,
-.portfolio-three .button:focus,
-.portfolio-four .button:hover,
-.portfolio-four .button:focus {
-    background: rgba(255, 255, 255, 0.8);
-}
-
 .portfolio-two {
     background-color: #82C442;
-    color: #FFFFFF;
-    height: 90vh;
 }
 
 .portfolio-two .button {
@@ -105,27 +90,48 @@ body {
 }
 
 .portfolio-three {
-    background-color: #F88527;
-    color: #FFFFFF;
-    height: 90vh;
+    background-color: #1C6399;
 }
 
 .portfolio-three .button {
     background-color: #FFFFFF;
-    color: #F88527;
+    color: #1C6399;
     font-weight: 700;
 }
 
 .portfolio-four {
     background-color: #C4B782;
-    color: #FFFFFF;
-    height: 90vh;
 }
 
 .portfolio-four .button {
     background-color: #FFFFFF;
     color: #C4B782;
     font-weight: 700;
+}
+
+.portfolio-five {
+    background-color: #21B2A6;
+}
+
+.portfolio-five .button {
+    background-color: #FFFFFF;
+    color: #21B2A6;
+    font-weight: 700;
+}
+
+.portfolio-six {
+    background-color: #F88527;
+}
+
+.portfolio-six .button {
+    background-color: #FFFFFF;
+    color: #F88527;
+    font-weight: 700;
+}
+
+.button:hover, .button:focus {
+    background: rgba(255, 255, 255, 0.8);
+    text-decoration: none;
 }
 
 .work-screens {
@@ -141,12 +147,12 @@ body {
 }
 
 .apps img {
-    max-width: 170px;
-    max-height: 170px;
+    width: 170px;
+    height: 170px;
 }
 
 .inclusive img {
-    max-height: 200px;
+    max-height: 250px;
 }
 
 .carousel.carousel-fade .carousel-item {
