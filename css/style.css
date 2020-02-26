@@ -39,7 +39,7 @@ body {
 #hero-section {
     padding-top: 150px;
     height: 550px;
-    background: #CCE5E7 url(Images/Mountains.svg) no-repeat center bottom; 
+    background: #CCE5E7 url(../Images/Mountains.svg) no-repeat center bottom; 
     -webkit-background-size: contain;
     -moz-background-size: contain;
     -o-background-size: contain;
@@ -49,7 +49,7 @@ body {
 #work-hero-section {
     height: 350px;
     padding-top: 50px;
-    background: #CCE5E7 url(Images/Clouds.svg) no-repeat center center; 
+    background: #CCE5E7 url(../Images/Clouds.svg) no-repeat center center; 
 }
 
 .button {
