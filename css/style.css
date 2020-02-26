@@ -66,7 +66,7 @@
 
 .portfolio-item {
     color: #FFFFFF;
-    height: 90vh;
+    min-height: 90vh;
 }
 
 .portfolio-one {
