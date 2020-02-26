@@ -1,3 +1,7 @@
+html, body {
+    overflow-x: hidden;
+}
+
 .brand-color {
     color: #0FB5BF;
 }
