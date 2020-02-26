@@ -230,18 +230,18 @@ footer .social-links a:focus {
 }
 
 @media (max-width: 768px) {
-  #hero-section {
-    background: #CCE5E7 url(../Images/Mountains.png) no-repeat center bottom;
-    background-size: contain;
-  }
-}
-
-@media (max-width: 576px) {
     .navbar-collapse .nav-item {
         text-align: center !important;
         padding: 10px 0px;
     }
+    
+    #hero-section {
+      background: #CCE5E7 url(../Images/Mountains.png) no-repeat center bottom;
+      background-size: contain;
+    }
+}
 
+@media (max-width: 576px) {
     #hero-section {
         padding-top: 150px;
         height: 450px;
