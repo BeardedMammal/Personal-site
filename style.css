@@ -39,7 +39,7 @@ body {
 #hero-section {
     padding-top: 150px;
     height: 550px;
-    background: #CCE5E7 url(Images/Mountains.png) no-repeat center bottom; 
+    background: #CCE5E7 url(Images/Mountains.svg) no-repeat center bottom; 
     -webkit-background-size: contain;
     -moz-background-size: contain;
     -o-background-size: contain;
