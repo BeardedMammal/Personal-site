@@ -270,6 +270,11 @@ footer .social-links a:focus {
     .looking {
         padding-top: 0px;
     }
+    
+    .wow{
+        animation-name: none !important;
+        visibility: visible !important;
+    }
 }
 
 @media (max-width: 576px) {
