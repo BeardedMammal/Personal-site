@@ -70,7 +70,7 @@
         </div>
     </div>
     
-    <section class="container-fluid">
+    <section class="container-fluid who">
         <div class="row py-3 py-md-5">
             <div class="col-lg-5 mx-auto text-center">
                 <h1 class="brand-color">Who am I?</h1>
@@ -143,7 +143,7 @@
         </div>
     </section>
 
-    <section class="container-fluid">
+    <section class="container-fluid looking">
         <div class="row py-3 py-lg-5">
             <div class="col-md-6 mx-auto text-center">
                 <h1 class="brand-color">Looking for Someone Like Me?</h1>
@@ -211,6 +211,17 @@
         
         <script>
             new WOW().init();
+    
+            wow = new WOW(
+                {
+                boxClass:     'wow',      // default
+                animateClass: 'animated', // default
+                offset:       0,          // default
+                mobile:       true,       
+                live:         true        // default
+                }
+            )
+            wow.init();
         </script>
     </body>
 </html>
