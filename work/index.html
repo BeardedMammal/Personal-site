@@ -68,7 +68,7 @@
         </div>
     </div>
     
-    <section class="container-fluid">
+    <section class="container-fluid py-md-5">
         <div class="row py-5">
             <div class="col-lg-5 mx-auto text-center">
                 <h1 class="brand-color">Latest Work</h1>
@@ -218,6 +218,17 @@
 
     <script>
         new WOW().init();
+
+        wow = new WOW(
+            {
+            boxClass:     'wow',      // default
+            animateClass: 'animated', // default
+            offset:       0,          // default
+            mobile:       true,       
+            live:         true        // default
+            }
+        )
+        wow.init();
     </script>
 
 
