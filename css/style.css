@@ -252,7 +252,6 @@ footer .social-links a:focus {
     #hero-section {
       background: #CCE5E7 url(../Images/Mountains.png) no-repeat center bottom;
       background-size: contain;
-      overflow: hidden;
     }
 
     .portfolio-item {
