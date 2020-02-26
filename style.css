@@ -230,7 +230,8 @@ footer .social-links a:focus {
 }
 
 @media (max-width: 768px) {
-    
+    background: #CCE5E7 url(Images/Mountains.png) no-repeat center bottom; 
+  }
 }
 
 @media (max-width: 576px) {
