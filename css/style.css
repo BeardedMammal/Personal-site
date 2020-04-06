@@ -37,7 +37,7 @@ html, body {
 #hero-section {
     padding-top: 150px;
     height: 650px;
-    background: #CCE5E7 url(../Images/Mountain.svg) no-repeat center bottom; 
+    background: #CCE5E7 url(../Images/Mountain.svg) no-repeat center bottom;
     -webkit-background-size: contain;
     -moz-background-size: contain;
     -o-background-size: contain;
@@ -83,42 +83,42 @@ html, body {
 }
 
 .portfolio-one {
-    background-color: #D3399B;
+    background-color: #63A8B8;
 }
 
 .portfolio-one .button {
+    background-color: #FFFFFF;
+    color: #63A8B8;
+    font-weight: 700;
+}
+
+.portfolio-two {
+    background-color: #D3399B;
+}
+
+.portfolio-two .button {
     background-color: #FFFFFF;
     color: #D3399B;
     font-weight: 700;
 }
 
-.portfolio-two {
+.portfolio-three {
     background-color: #82C442;
 }
 
-.portfolio-two .button {
+.portfolio-three .button {
     background-color: #FFFFFF;
     color: #82C442;
     font-weight: 700;
 }
 
-.portfolio-three {
-    background-color: #1C6399;
-}
-
-.portfolio-three .button {
-    background-color: #FFFFFF;
-    color: #1C6399;
-    font-weight: 700;
-}
-
 .portfolio-four {
-    background-color: #C4B782;
+    background-color: #1C6399;
 }
 
 .portfolio-four .button {
     background-color: #FFFFFF;
-    color: #C4B782;
+    color: #1C6399;
     font-weight: 700;
 }
 
@@ -253,7 +253,7 @@ footer .social-links a:focus {
         text-align: center !important;
         padding: 10px 0px;
     }
-    
+
     #hero-section {
       background: #CCE5E7 url(../Images/Mountains.png) no-repeat center bottom;
       background-size: contain;
@@ -266,11 +266,11 @@ footer .social-links a:focus {
     .who {
         padding-bottom: 0px;
     }
-    
+
     .looking {
         padding-top: 0px;
     }
-    
+
     .wow {
         visibility: visible !important;
         -webkit-animation: none !important;
